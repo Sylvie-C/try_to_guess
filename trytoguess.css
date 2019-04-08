@@ -1,0 +1,63 @@
+/* TRYTOGUESS GAME
+*/
+
+/* GENERAL */
+body {
+  background-color:rgb(97,203,179); 
+  text-align:center;  
+}
+
+a {  color:rgb(80,195,15);  }
+
+a:hover {  color:lightGreen;  }
+
+
+/* 1st MESSAGE - WELCOME MESSAGE */
+div#message {
+  padding : 3px ; 
+  margin : 3px; 
+
+  color:rgb(0,70,70); 
+  font-weight:bold; 
+  font-family : Purisa, Chilanka, Arial, serif ; 
+  font-size : 14px; 
+  text-align:center; 
+}
+
+div#dataOutput img {
+  width:4vw; 
+  margin-top:5%;
+  margin-bottom:5%;  
+}
+
+/* INPUT FIELD for player data entry */
+input#dataInput {
+  height:50px; 
+  vertical-align:center;
+  text-align:center; 
+}
+
+
+/* RESULT - ANSWER :  
+   - tag id "answer01" = text
+   - tag id "answer02" = word to guess -> used in javascript program. 
+*/
+
+div#answer { 
+  width:80%; 
+  margin-left:10%; 
+  margin-top:5%; 
+
+  background-color:rgb(5,100,100);
+  color:rgb(97,203,179); 
+
+  font-family:Purisa, Chilanka, Arial, serif ;
+  font-size:16px;
+} 
+
+
+
+
+
+
+

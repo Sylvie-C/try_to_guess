@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset='UTF-8' />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel='stylesheet' type='text/css' href='trytoguess.css' />
+    <title>Try to guess</title>
+
+    <link href="https://fonts.googleapis.com/css?family=Great+Vibes" rel="stylesheet" />
+
+
+    <!-- Change right _rev file when program finished -->
+    <script type="text/javascript" src="trytoguessen.js"> </script>
+
+
+  </head>
+
+  <body onload="printMessage()">
+    <pre> <a href="../../games.html">Back to list</a>  <a href="../../index.html">Home</a> </pre>
+      
+      <div id="message"> </div>
+      <div id="dataOutput"> </div>
+
+      <input id="dataInput" type="text" placeholder="Type a word here + Enter" onkeypress="if(event.keyCode == 13) catchDataIn()"/>
+      <!-- on key press on "Enter" (keycode 13), launch of catchDataIn() javascript function -->
+
+      <div id="answer"> </div>
+
+  </body>
+
+</html>
