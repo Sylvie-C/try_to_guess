@@ -93,7 +93,7 @@ const updateScore = (newScore) => {
 
 	}else{
 	  currentScore = localStorage.getItem('score') ;
-	  localStorage.clear() ; 		// empty cache
+	  localStorage.removeItem('score') ; 		// empty cache
 
 	  currentScore = Number(currentScore) ;
 	  currentScore += newScore ;
