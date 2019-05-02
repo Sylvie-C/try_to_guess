@@ -179,10 +179,3 @@ const quitGame = () => {
   localStorage.removeItem('score') ;
   window.location = "../../games.html"
 }
-
-
-
-
-
-
-
